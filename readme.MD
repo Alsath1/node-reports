@@ -1,6 +1,9 @@
 необходимо создать .env файл и добавить в него строку, а так же вместо username, password и dbname подставить значения 
 DATABASE_URL="postgresql://username:password@localhost:5432/dbname?schema=public"
 
+после чего прописать в консоле: 
+- npx prisma db push
+- npx prisma generate
 
 типы полей:
 status - имеет несколько допустимых значений: 'New', 'Work', 'Resolved', 'Close'.
