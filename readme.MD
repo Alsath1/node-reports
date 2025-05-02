@@ -5,6 +5,9 @@ DATABASE_URL="postgresql://username:password@localhost:5432/dbname?schema=public
 - npx prisma db push
 - npx prisma generate
 
+для запуска
+cd /src
+npx ts-node app.ts
 типы полей:
 status - имеет несколько допустимых значений: 'New', 'Work', 'Resolved', 'Close'.
 id - number
